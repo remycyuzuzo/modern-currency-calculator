@@ -1,0 +1,71 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(160deg, #0093E9 0%, #80D0C7 100%) no-repeat #0093E9;
+    background-size: 100% 100%;
+    height: 100vh;
+}
+
+.calculator {
+    background-color: #ffffff;
+    position: relative;
+    border-radius: 10px;
+    overflow: hidden;
+    height: 500px;
+}
+
+.calculator>div {
+    height: 50%;
+    padding: 16px;
+}
+
+.calculator .top {
+    background-color: #632940;
+    background-image: linear-gradient(336deg, #632940 0%, #C850C0 92%);
+
+}
+
+.calculator .top .amount-text-box>input {
+    border: none;
+    background: none;
+    height: fit-content;
+    width: 100%;
+    color: #fff;
+    font-size: 2.5em;
+    border-bottom: #fff 3px solid;
+}
+
+.calculator select.currency-switcher {
+    border: none;
+    background: none;
+    font-size: 1em;
+}
+
+.calculator .top select.currency-switcher {
+    color: #fff;
+}
+
+.calculator .bottom select.currency-switcher {
+    color: #C850C0;
+}
+
+.calculator .bottom .result>span {
+    font-size: 2.5em;
+}
+
+.switcher {
+    --height: 70px;
+    position: absolute;
+    background: #FDFBD7;
+    height: var(--height);
+    width: 50px;
+    top: calc(50% - (var(--height)/2));
+    right: 20px;
+    z-index: 1000;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, .2) 0 0 10px;
+}
+
+.switcher button {
+    height: 100%;
+    width: 100%;
+}

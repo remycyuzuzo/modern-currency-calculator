@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,400;0,700;1,100;1,400;1,700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.2.3/css/bootstrap.min.css"
+        integrity="sha512-SbiR/eusphKoMVVXysTKG/7VseWii+Y3FdHrt0EpKgpToZeemhqHeZeLWLhJutz/2ut2Vw1uQEj2MbRF+TVBUA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="stylesheet" href="./styles/style.css">
+
+
+    <title>Currency Converter</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="row justify-content-center align-items-center">
+            <div class="calculator col-md-5 p-0">
+                <div class="top p-5  d-flex align-items-center">
+                    <div class="currency-box">
+                        <form action="" class="d-flex gap-4 justify-content-center align-items-center" method="post">
+                            <div class="amount-text-box">
+                                <input type="number" class="amount-input" value="1">
+                            </div>
+                            <div class="currency-select">
+                                <select name="currency" class="currency-switcher"></select>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+                <div class="bottom d-flex align-items-center p-5">
+                    <div class="currency-result-box">
+                        <form action="" class="d-flex justify-content-center align-items-center gap-4" method="post">
+                            <div class="result">
+                                <span>0</span>
+                            </div>
+                            <div class="currency-select">
+                                <select name="currency" class="currency-switcher"></select>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+                <span class="switcher">
+                    <button class="btn d-flex align-items-center justify-content-center gap-1">
+                        <i class="fa-solid fa-arrow-up"></i>
+                        <i class="fa-solid fa-arrow-down"></i>
+                    </button>
+                </span>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.2.3/js/bootstrap.min.js"
+    integrity="sha512-1/RvZTcCDEUjY/CypiMz+iqqtaoQfAITmNSJY17Myp4Ms5mdxPS5UV7iOfdZoxcGhzFbOm6sntTKJppjvuhg4g=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script src="./js/main.js"></script>
+
+</html>
